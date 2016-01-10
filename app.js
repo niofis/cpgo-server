@@ -27,7 +27,7 @@ app.post('/:key', function (req, res, next) {
 var port = process.env.NODE_PORT || 3000
 var server = app.listen(port, function () {
   var addr = server.address();
-  console.log(`cpgo-server running at http://${addr.address}:${addr.port}`);
+  console.log('cpgo-server running!');
 });
 
 
